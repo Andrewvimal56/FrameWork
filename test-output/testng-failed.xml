@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ie(failed)">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="org.testNG.expriments.Test7CrossBrowserTest">
+        <methods>
+          <include name="Test70" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.testNG.expriments.Test7CrossBrowserTest -->
+    </classes>
+  </test> <!-- ie(failed) -->
+  <test thread-count="5" name="edge(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="org.testNG.expriments.Test7CrossBrowserTest">
+        <methods>
+          <include name="Test70" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.testNG.expriments.Test7CrossBrowserTest -->
+    </classes>
+  </test> <!-- edge(failed) -->
+</suite> <!-- Failed suite [Suite] -->
